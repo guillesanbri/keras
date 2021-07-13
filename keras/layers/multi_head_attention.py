@@ -195,7 +195,7 @@ class MultiHeadAttention(Layer):
       indicates no attention. Broadcasting can happen for the missing batch
       dimensions and the head dimension.
     return_attention_scores: A boolean to indicate whether the output should
-      be attention output if True, or (attention_output, attention_scores) if
+      be (attention_output, attention_scores) if True, or attention output if
       False. Defaults to False.
     training: Python boolean indicating whether the layer should behave in
       training mode (adding dropout) or in inference mode (no dropout).
